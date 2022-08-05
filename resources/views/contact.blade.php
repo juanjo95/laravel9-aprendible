@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('title','Contacto')
-@section('meta-description','Contacto meta description')
-
-@section('content')
+{{-- Siempre comienza con la x, luego el guion y seguido por la ubicacion del componente (x- = apuntan a la carpeta components y layout=al nombre del componente) --}}
+<x-layouts.app title="Contacto" meta-description="Contacto meta description">
     <h1>Contacto</h1>
-@endsection
+</x-layouts.app>
